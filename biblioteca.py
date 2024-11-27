@@ -320,7 +320,8 @@ def dibujar_tablero(matriz:list, descubiertas:list, banderas:int, pantalla, tam_
         - tam_casilla: Tamaño de cada celda en píxeles.
     """
     imagenes = cargar_imagenes()
-    filas, columnas = len(matriz), len(matriz[0])
+    filas = len(matriz)
+    columnas = len(matriz[0])
     ancho_tablero = tam_casilla * columnas
     desplazamiento_x = (ANCHO - ancho_tablero) // 2
     for fila in range(filas):
@@ -381,8 +382,6 @@ def descubrir_vacias(fila:int, columna:int, matriz:list, descubiertas:list, fila
                 for j in range(c - 1, c + 2):  # Verifica las columnas adyacentes
                     if 0 <= i < filas and 0 <= j < columnas and not descubiertas[i][j]:
                         celdas_por_descubrir.append((i, j))
-    
-        
 
 def ajustar_tamano_casilla(filas:int, columnas:int) -> int:
     """
