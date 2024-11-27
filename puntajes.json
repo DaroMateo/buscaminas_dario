@@ -84,7 +84,7 @@
         "puntaje": 1
     },
     {
-        "nick": "d",
+        "nick": "daro",
         "puntaje": 29
     },
     {
@@ -192,7 +192,7 @@
         "puntaje": 22
     },
     {
-        "nick": "je",
+        "nick": "Juan",
         "puntaje": 23
     },
     {
@@ -292,7 +292,7 @@
         "puntaje": 14
     },
     {
-        "nick": "hhhhhhh",
+        "nick": "Franco",
         "puntaje": 32
     },
     {
@@ -302,5 +302,9 @@
     {
         "nick": "a",
         "puntaje": 2
+    },
+    {
+        "nick": "dario",
+        "puntaje": 3
     }
 ]
